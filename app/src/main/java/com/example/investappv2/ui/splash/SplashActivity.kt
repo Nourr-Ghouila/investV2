@@ -1,11 +1,10 @@
-package com.example.invest
+package com.example.investappv2.ui.splash
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
-import com.example.invest.databinding.ActivitySplashBinding
-import com.example.invest.ui.screens.onboarding.OnboardingActivity
+import com.example.investappv2.R
 import com.example.investappv2.databinding.ActivitySplashBinding
 import kotlin.jvm.java
 

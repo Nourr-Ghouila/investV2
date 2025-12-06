@@ -1,11 +1,11 @@
-package com.example.investappv2
+package com.example.investappv2.ui.main
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.google.firebase.ktx.Firebase
+import com.example.investappv2.R
 import com.google.firebase.firestore.ktx.firestore
-
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
