@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#142043"
+    android:padding="24dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/avatarImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_user"
+        android:background="@drawable/circle_white"
+        android:padding="8dp"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nour Ghouila"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nour@gmail.com"
+        android:textColor="#C7C7C7"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"/>
+</LinearLayout>
